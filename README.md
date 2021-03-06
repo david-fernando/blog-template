@@ -13,7 +13,7 @@
 
 ## <span id="about">Sobre</span>
 
-Página web simples, apenas para exemplificar o que eu explico no meu artigo [Como colocar dark theme numa página web com poucas linhas de código](#)
+Página web simples usada como exemplo no artigo [Como colocar dark theme numa página web com poucas linhas de código](#)
 
 ## <span id="howToUse">Como usar</span>
 Está aplicação não necessita de um servidor local. 
