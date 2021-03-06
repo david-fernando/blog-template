@@ -1,0 +1,116 @@
+:root {
+  --text: #424242;
+  --title: #2d2d2d;
+  --background-items: #d7d2d2;
+  --background: #fff;
+  --text-light: rgb(136, 153, 166);
+  --title-light: #fff;
+  --background-card: #fff;
+  --background-dark: rgb(21, 32, 43);
+  --dark-items: rgba(29, 161, 242, 0.1);
+  --card-dark: rgb(37, 51, 65);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h3 {
+  color: var(--title)
+}
+
+a {
+  text-decoration: none;
+  background: var(--background-items);
+  padding: 8px;
+  border-radius: 4px;
+  width: max-content;
+  color: var(--text);
+}
+
+button {
+  background: none;
+  border: 0px;
+}
+
+nav > span, svg, .description, .status-bar > span {
+  color: var(--text);
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--background)
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header > .top-content {
+  display: flex;
+  align-items: center;
+  height: 30pt;
+  background: var(--background-items);
+  justify-content: space-between;
+  padding-right: 77pt;
+}
+
+.top-content, .title {
+  padding-left: 98pt;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  padding-left: 98pt;
+  padding-right: 98pt;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.post-container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 5px 2px 17px -3px rgba(0,0,0,0.50);
+  padding: 14px;
+  padding-bottom: 25px;
+  background: var(--background-card);
+}
+
+.post-container > span {
+  display: flex;
+  flex-direction: column;
+  gap: 32pt;
+}
+
+.post-container > span > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 7pt;
+  justify-content: flex-start;
+}
+
+.status-bar {
+  display: flex;
+  gap: 10px
+}
+
