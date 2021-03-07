@@ -13,7 +13,7 @@
 
 ## <span id="about">Sobre</span>
 
-Página web simples usada como exemplo no artigo [Como colocar dark theme numa página web com poucas linhas de código](#)
+Página web simples usada como exemplo no artigo [Como fazer dark theme com JavaScript puro](https://medium.com/david-fernando/como-dark-theme-com-javascript-puro-fc277377447c)
 
 ## <span id="howToUse">Como usar</span>
 Está aplicação não necessita de um servidor local. 
